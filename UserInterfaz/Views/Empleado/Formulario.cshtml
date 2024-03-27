@@ -1,0 +1,76 @@
+﻿@model BusinessLayer.Empleado
+
+@{
+    ViewBag.Title = "FormEmpleado";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1> REGISTRO DE EMPLEADOS </h1>
+
+<br>
+
+@using (Html.BeginForm("Formulario", "Empleado", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    @Html.HiddenFor(model => model.IdEmpleado)
+
+    <div class="row">
+        <div class="col-md-4">
+            @Html.LabelFor(model => model.Nombre)
+            @Html.TextBoxFor(model => model.Nombre, new { @class = "form-control", @onkeyup = "soloLetras(this,'lblNombre')" })
+        </div>
+
+        <div class="col-md-4">
+            @Html.LabelFor(model => model.ApellidoPaterno)
+            @Html.TextBoxFor(model => model.ApellidoPaterno, new { @class = "form-control", @onkeyup = "soloLetras(this,'lblApellidoPaterno')" })
+        </div>
+
+        <div class="col-md-4">
+            @Html.LabelFor(model => model.ApellidoMaterno)
+            @Html.TextBoxFor(model => model.ApellidoMaterno, new { @class = "form-control", @onkeyup = "soloLetras(this,'lblApellidoMaterno')" })
+        </div>
+    </div>
+    <br>
+
+    <div class="row">
+
+        <div class="col-md-4">
+            @Html.LabelFor(model => model.FechaNacimiento)
+            @Html.TextBoxFor(model => model.FechaNacimiento, new { @class = "form-control", @onkeyup = "soloLetras(this,'lblApellidoMaterno')" })
+        </div>
+
+        <div class="col-md-4">
+            @Html.LabelFor(model => model.Sueldo)
+            @Html.TextBoxFor(model => model.Sueldo, new { @class = "form-control", @onkeyup = "soloLetras(this,'lblApellidoMaterno')" })
+        </div>
+
+        <div class="col-md-4">
+                @Html.LabelFor(model => model.Area.IdArea)
+                @Html.DropDownListFor(model => model.Area.IdArea, new SelectList(Model.Area.Areas, "IdArea", "Area"), "Selecciona una Especialidad", new { @class = "form-control" })
+
+            </div>
+    </div>
+
+    <br>
+    <br>
+
+    <div align='center'>
+        <div class="row">
+            @if (Model.IdEmpleado == 0)
+            {
+                <input type="submit" class="btn btn-success" value="Agregar" />
+
+
+            }
+            else
+            {
+                <input type="submit" class="btn btn-info" value="Actualizar" />
+
+
+            }
+
+            <a href="@Url.Action("GetAllEmpleado", "Empleado")" class="btn btn-danger">Cancelar</a>
+
+        </div>
+    </div>
+
+}

@@ -1,0 +1,15 @@
+C:\Users\digis\Documents\Christian Otero Garcia\TestSol\BusinessLayer\bin\Debug\BusinessLayer.dll.config
+C:\Users\digis\Documents\Christian Otero Garcia\TestSol\BusinessLayer\bin\Debug\BusinessLayer.dll
+C:\Users\digis\Documents\Christian Otero Garcia\TestSol\BusinessLayer\bin\Debug\BusinessLayer.pdb
+C:\Users\digis\Documents\Christian Otero Garcia\TestSol\BusinessLayer\bin\Debug\DataLayer.dll
+C:\Users\digis\Documents\Christian Otero Garcia\TestSol\BusinessLayer\bin\Debug\EntityFramework.dll
+C:\Users\digis\Documents\Christian Otero Garcia\TestSol\BusinessLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\digis\Documents\Christian Otero Garcia\TestSol\BusinessLayer\bin\Debug\DataLayer.pdb
+C:\Users\digis\Documents\Christian Otero Garcia\TestSol\BusinessLayer\bin\Debug\DataLayer.dll.config
+C:\Users\digis\Documents\Christian Otero Garcia\TestSol\BusinessLayer\bin\Debug\EntityFramework.xml
+C:\Users\digis\Documents\Christian Otero Garcia\TestSol\BusinessLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\digis\Documents\Christian Otero Garcia\TestSol\BusinessLayer\obj\Debug\BusinessLayer.csproj.AssemblyReference.cache
+C:\Users\digis\Documents\Christian Otero Garcia\TestSol\BusinessLayer\obj\Debug\BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\digis\Documents\Christian Otero Garcia\TestSol\BusinessLayer\obj\Debug\BusinessLayer.csproj.CopyComplete
+C:\Users\digis\Documents\Christian Otero Garcia\TestSol\BusinessLayer\obj\Debug\BusinessLayer.dll
+C:\Users\digis\Documents\Christian Otero Garcia\TestSol\BusinessLayer\obj\Debug\BusinessLayer.pdb
