@@ -35,17 +35,17 @@
 
         <div class="col-md-4">
             @Html.LabelFor(model => model.FechaNacimiento)
-            @Html.TextBoxFor(model => model.FechaNacimiento, new { @class = "form-control", @onkeyup = "soloLetras(this,'lblApellidoMaterno')" })
+            @Html.TextBoxFor(model => model.FechaNacimiento, new { @class = "form-control", @type = "date" ,  @onkeyup = "soloLetras(this,'lblApellidoMaterno')" })
         </div>
 
         <div class="col-md-4">
             @Html.LabelFor(model => model.Sueldo)
-            @Html.TextBoxFor(model => model.Sueldo, new { @class = "form-control", @onkeyup = "soloLetras(this,'lblApellidoMaterno')" })
+            @Html.TextBoxFor(model => model.Sueldo, new { @Placeholder = "0" , @class = "form-control", @onkeyup = "soloLetras(this,'lblApellidoMaterno')" })
         </div>
 
         <div class="col-md-4">
-                @Html.LabelFor(model => model.Area.IdArea)
-                @Html.DropDownListFor(model => model.Area.IdArea, new SelectList(Model.Area.Areas, "IdArea", "Area"), "Selecciona una Especialidad", new { @class = "form-control" })
+                @Html.LabelFor(model => model.Area)
+                @Html.DropDownListFor(model => model.Area.IdArea, new SelectList(Model.Area.Areas, "IdArea", "Nombre"), "Selecciona una Área", new { @class = "form-control" })
 
             </div>
     </div>
@@ -68,7 +68,7 @@
 
             }
 
-            <a href="@Url.Action("GetAllEmpleado", "Empleado")" class="btn btn-danger">Cancelar</a>
+            <a href="@Url.Action("EmpleadoGetAll", "Empleado")" class="btn btn-danger">Cancelar</a>
 
         </div>
     </div>

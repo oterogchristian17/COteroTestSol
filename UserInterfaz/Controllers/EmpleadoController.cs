@@ -47,10 +47,40 @@ namespace UserInterfaz.Controllers
         }
 
         [HttpGet]
-        public ActionResult Formulario()
+        public ActionResult Formulario(int? IdEmpleado)
         {
             BusinessLayer.Empleado empleado = new BusinessLayer.Empleado();
-            return View(empleado);
+
+            if (IdEmpleado != null)
+            {
+
+
+            }
+            else
+            {
+                empleado.Area = new BusinessLayer.Area();
+            }
+            
+            Dictionary<string, object> resultArea = BusinessLayer.Area.GetAll();
+            bool rolCorrect = (bool)resultArea["Resultado"];
+
+            if (rolCorrect == true)
+            {
+
+                BusinessLayer.Area area = (BusinessLayer.Area)resultArea["Area"];
+                empleado.Area = new BusinessLayer.Area();
+                empleado.Area.Areas = area.Areas;
+
+                return View(empleado);
+
+            }
+            else
+            {
+                string excepcion = (string)resultArea["Excepcion"];
+                ViewBag.Mensaje = "Ocurrio un error al recuperar la informacion" + excepcion;
+                return View(empleado);
+
+            }
         }
 
 
@@ -67,13 +97,13 @@ namespace UserInterfaz.Controllers
 
                 if (result == true)
                 {
-                    ViewBag.Mensaje = "El Hospital ha sido actualizado";
+                    ViewBag.Mensaje = "El Empleado ha sido actualizado";
                     return PartialView("Modal");
                 }
                 else
                 {
                     string excepcion = (string)resultado["Excepcion"];
-                    ViewBag.Mensaje = "El Hospital no se pudo actualizar" + excepcion;
+                    ViewBag.Mensaje = "El Empleado no se pudo actualizar" + excepcion;
                     return PartialView("Modal");
                 }
                 return View(empleado);
@@ -95,6 +125,10 @@ namespace UserInterfaz.Controllers
                     return PartialView("Modal");
                 }
 
+                Dictionary<string, object> resultArea = BusinessLayer.Area.GetAll();
+
+                BusinessLayer.Area area = (BusinessLayer.Area)resultArea["Area"];
+                empleado.Area.Areas = area.Areas;
 
                 return View(empleado);
 
