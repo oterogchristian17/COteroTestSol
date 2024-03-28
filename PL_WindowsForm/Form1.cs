@@ -47,5 +47,15 @@ namespace PL_WindowsForm
             this.getAllEmpleadoTableAdapter.Fill(this.testSolDataSet.GetAllEmpleado);
 
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
