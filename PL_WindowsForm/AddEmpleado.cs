@@ -76,7 +76,7 @@ namespace PL_WindowsForm
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-
+            //Metodos Obtener Strings
         }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
