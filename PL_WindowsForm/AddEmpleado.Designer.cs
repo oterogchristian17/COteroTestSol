@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -43,7 +44,13 @@
             this.button2 = new System.Windows.Forms.Button();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.getAllAreaTableAdapter1 = new PL_WindowsForm.TestSolDataSetTableAdapters.GetAllAreaTableAdapter();
+            this.testSolDataSet = new PL_WindowsForm.TestSolDataSet();
+            this.areaBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.areaTableAdapter = new PL_WindowsForm.TestSolDataSetTableAdapters.AreaTableAdapter();
             this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.testSolDataSet)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.areaBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -204,12 +211,32 @@
             // 
             // comboBox1
             // 
+            this.comboBox1.DataSource = this.areaBindingSource;
+            this.comboBox1.DisplayMember = "Nombre";
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Location = new System.Drawing.Point(482, 167);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(121, 29);
             this.comboBox1.TabIndex = 11;
             this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
+            // 
+            // getAllAreaTableAdapter1
+            // 
+            this.getAllAreaTableAdapter1.ClearBeforeFill = true;
+            // 
+            // testSolDataSet
+            // 
+            this.testSolDataSet.DataSetName = "TestSolDataSet";
+            this.testSolDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // areaBindingSource
+            // 
+            this.areaBindingSource.DataMember = "Area";
+            this.areaBindingSource.DataSource = this.testSolDataSet;
+            // 
+            // areaTableAdapter
+            // 
+            this.areaTableAdapter.ClearBeforeFill = true;
             // 
             // AddEmpleado
             // 
@@ -224,6 +251,8 @@
             this.Load += new System.EventHandler(this.AddEmpleado_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.testSolDataSet)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.areaBindingSource)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -245,5 +274,9 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.ComboBox comboBox1;
+        private TestSolDataSetTableAdapters.GetAllAreaTableAdapter getAllAreaTableAdapter1;
+        private TestSolDataSet testSolDataSet;
+        private System.Windows.Forms.BindingSource areaBindingSource;
+        private TestSolDataSetTableAdapters.AreaTableAdapter areaTableAdapter;
     }
 }

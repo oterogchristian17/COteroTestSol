@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataLayer", "DataLayer\Data
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PL_WindowsForm", "PL_WindowsForm\PL_WindowsForm.csproj", "{A2D0B588-41A9-4798-99A1-9932691E8321}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web_Api", "Web_Api\Web_Api.csproj", "{564ACB4C-1583-4AA6-BCF2-DA75AFF15F24}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{A2D0B588-41A9-4798-99A1-9932691E8321}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A2D0B588-41A9-4798-99A1-9932691E8321}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A2D0B588-41A9-4798-99A1-9932691E8321}.Release|Any CPU.Build.0 = Release|Any CPU
+		{564ACB4C-1583-4AA6-BCF2-DA75AFF15F24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{564ACB4C-1583-4AA6-BCF2-DA75AFF15F24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{564ACB4C-1583-4AA6-BCF2-DA75AFF15F24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{564ACB4C-1583-4AA6-BCF2-DA75AFF15F24}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

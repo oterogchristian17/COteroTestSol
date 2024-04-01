@@ -39,6 +39,8 @@ namespace PL_WindowsForm
 
         private void AddEmpleado_Load(object sender, EventArgs e)
         {
+            // TODO: This line of code loads data into the 'testSolDataSet.Area' table. You can move, or remove it, as needed.
+            this.areaTableAdapter.Fill(this.testSolDataSet.Area);
 
         }
 
@@ -79,12 +81,10 @@ namespace PL_WindowsForm
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            BusinessLayer.Empleado empleado = new BusinessLayer.Empleado();
+            AddEmpleado empleado = new AddEmpleado();
 
-            Dictionary<string, object> resultArea = BusinessLayer.Area.GetAll();
+            Dictionary<string, object> resultado = BusinessLayer.Area.GetAll();
 
-            BusinessLayer.Area area = (BusinessLayer.Area)resultArea["Area"];
-            empleado.Area.Areas = area.Areas;
 
         }
 
