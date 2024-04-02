@@ -1,0 +1,12 @@
+C:\Users\digis\Documents\Christian Otero Garcia\COteroTestSol\COteroTestSol\DataLayer\bin\Release\DataLayer.dll.config
+C:\Users\digis\Documents\Christian Otero Garcia\COteroTestSol\COteroTestSol\DataLayer\bin\Release\DataLayer.dll
+C:\Users\digis\Documents\Christian Otero Garcia\COteroTestSol\COteroTestSol\DataLayer\bin\Release\DataLayer.pdb
+C:\Users\digis\Documents\Christian Otero Garcia\COteroTestSol\COteroTestSol\DataLayer\bin\Release\EntityFramework.dll
+C:\Users\digis\Documents\Christian Otero Garcia\COteroTestSol\COteroTestSol\DataLayer\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\digis\Documents\Christian Otero Garcia\COteroTestSol\COteroTestSol\DataLayer\bin\Release\EntityFramework.xml
+C:\Users\digis\Documents\Christian Otero Garcia\COteroTestSol\COteroTestSol\DataLayer\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\digis\Documents\Christian Otero Garcia\COteroTestSol\COteroTestSol\DataLayer\obj\Release\DataLayer.csproj.AssemblyReference.cache
+C:\Users\digis\Documents\Christian Otero Garcia\COteroTestSol\COteroTestSol\DataLayer\obj\Release\DataLayer.csproj.CoreCompileInputs.cache
+C:\Users\digis\Documents\Christian Otero Garcia\COteroTestSol\COteroTestSol\DataLayer\obj\Release\DataLayer.csproj.CopyComplete
+C:\Users\digis\Documents\Christian Otero Garcia\COteroTestSol\COteroTestSol\DataLayer\obj\Release\DataLayer.dll
+C:\Users\digis\Documents\Christian Otero Garcia\COteroTestSol\COteroTestSol\DataLayer\obj\Release\DataLayer.pdb

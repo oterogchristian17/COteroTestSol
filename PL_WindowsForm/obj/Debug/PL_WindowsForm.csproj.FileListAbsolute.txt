@@ -1,6 +1,5 @@
 C:\Users\digis\Documents\Christian Otero Garcia\COteroTestSol\COteroTestSol\PL_WindowsForm\obj\Debug\PL_WindowsForm.csproj.AssemblyReference.cache
 C:\Users\digis\Documents\Christian Otero Garcia\COteroTestSol\COteroTestSol\PL_WindowsForm\obj\Debug\PL_WindowsForm.csproj.SuggestedBindingRedirects.cache
-C:\Users\digis\Documents\Christian Otero Garcia\COteroTestSol\COteroTestSol\PL_WindowsForm\obj\Debug\PL_WindowsForm.AddEmpleado.resources
 C:\Users\digis\Documents\Christian Otero Garcia\COteroTestSol\COteroTestSol\PL_WindowsForm\obj\Debug\PL_WindowsForm.Properties.Resources.resources
 C:\Users\digis\Documents\Christian Otero Garcia\COteroTestSol\COteroTestSol\PL_WindowsForm\obj\Debug\PL_WindowsForm.csproj.GenerateResource.cache
 C:\Users\digis\Documents\Christian Otero Garcia\COteroTestSol\COteroTestSol\PL_WindowsForm\obj\Debug\PL_WindowsForm.csproj.CoreCompileInputs.cache
@@ -19,3 +18,9 @@ C:\Users\digis\Documents\Christian Otero Garcia\COteroTestSol\COteroTestSol\PL_W
 C:\Users\digis\Documents\Christian Otero Garcia\COteroTestSol\COteroTestSol\PL_WindowsForm\obj\Debug\PL_WindowsForm.exe
 C:\Users\digis\Documents\Christian Otero Garcia\COteroTestSol\COteroTestSol\PL_WindowsForm\obj\Debug\PL_WindowsForm.pdb
 C:\Users\digis\Documents\Christian Otero Garcia\COteroTestSol\COteroTestSol\PL_WindowsForm\obj\Debug\PL_WindowsForm.Form1.resources
+C:\Users\digis\Documents\Christian Otero Garcia\COteroTestSol\COteroTestSol\PL_WindowsForm\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\digis\Documents\Christian Otero Garcia\COteroTestSol\COteroTestSol\PL_WindowsForm\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\digis\Documents\Christian Otero Garcia\COteroTestSol\COteroTestSol\PL_WindowsForm\obj\Debug\PL_WindowsForm.Modal.resources
+C:\Users\digis\Documents\Christian Otero Garcia\COteroTestSol\COteroTestSol\PL_WindowsForm\obj\Debug\PL_WindowsForm.ModalEliminar.resources
+C:\Users\digis\Documents\Christian Otero Garcia\COteroTestSol\COteroTestSol\PL_WindowsForm\obj\Debug\PL_WindowsForm.ModalActualizar.resources
+C:\Users\digis\Documents\Christian Otero Garcia\COteroTestSol\COteroTestSol\PL_WindowsForm\obj\Debug\PL_WindowsForm.InformeStarWars.resources
